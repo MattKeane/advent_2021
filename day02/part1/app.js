@@ -9,7 +9,7 @@ fs.readFile('./input.txt', 'utf8', (err, data) => {
         }
     })
 
-    let submarine = {
+    const submarine = {
         horizontal: 0,
         depth: 0,
         forward: function(distance) {
